@@ -1,0 +1,121 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+* {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%
+}
+
+article {
+  background-image: linear-gradient(#49BFB3, #4563BF);
+  margin: 0;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#color2 {
+  background-image: linear-gradient(#733315, #49BFB3);
+}
+
+#artistphoto {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  font-size: 1.3rem;
+}
+
+#para {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-top: 1rem;
+}
+
+#longpara {
+  padding-bottom: 5rem;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+}
+
+h1, h2 {
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  margin: auto;
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-size: 2.3rem;
+}
+
+#albumcovers {
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.cover {
+  max-width: 250px;
+  padding: .5rem;
+}
+
+#holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info {
+  margin-left: 6.5rem;
+  font-size: 1.2rem;
+}
+
+footer {
+  background: #000;
+  padding: .5rem;
+  text-align: center;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: 'Rokkitt', 'palatino', 'Georgia', serif;
+  margin: 0;
+}
+
+@media screen and (max-width: 650px) {
+  #para {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .cover {
+    max-width: 275px;
+  }
+h1 {
+  font-size: 2.7rem;
+}
+#para {
+  padding-top: 1.5rem;
+}
+#longpara {
+  padding-bottom: 1.5rem;
+}
+#artistphoto {
+  font-size: 1rem;
+}
+}
